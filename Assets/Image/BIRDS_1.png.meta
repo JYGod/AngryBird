@@ -185,6 +185,10 @@ TextureImporter:
     21300360: BIRDS_1_180
     21300362: BIRDS_1_181
     21300364: BIRDS_1_182
+    21300366: BIRDS_1_183
+    21300368: BIRDS_1_184
+    21300370: BIRDS_1_185
+    21300372: BIRDS_1_186
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -612,7 +616,7 @@ TextureImporter:
       name: BIRDS_1_16
       rect:
         serializedVersion: 2
-        x: 328
+        x: 329
         y: 790
         width: 110
         height: 50
@@ -913,7 +917,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 703
+        y: 702
         width: 59
         height: 43
       alignment: 0
@@ -3944,6 +3948,86 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a961008224b834dbcbfdd7268c48e4b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDS_1_183
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 706
+        width: 159
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07a5a062d19043d1a9d852b4806b179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDS_1_184
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 695
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ffebdb4ef514c20bf1d72e84a7ff82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDS_1_185
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 407
+        width: 134
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675a6e77cd4a8498d9fbbefae6450a5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDS_1_186
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 709
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62617ab8c38334c409bb6aa8e585d21a
       vertices: []
       indices: 
       edges: []
