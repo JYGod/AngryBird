@@ -4,38 +4,51 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour {
 
-    private bool isClick = false;
-    private Rigidbody2D rigidbody2D;
-
-    [HideInInspector]
-    public SpringJoint2D springJoint2D;
-
     public Transform rightPosition;
     public Transform leftPosition;
     public float maxDistance;
     public LineRenderer leftLine;
     public LineRenderer rightLine;
+    public AudioClip audioSelect;
+    public AudioClip audioFly;
+    public float smooth = 3f;
 
+    [HideInInspector]
+    public SpringJoint2D springJoint2D;
+
+    private Rigidbody2D rigidbody2D;
+    private DrawTrail drawTrail;
+    private bool isClick = false;
+    private bool canMove = true;
 
     private void Awake()
     {
         springJoint2D = GetComponent<SpringJoint2D>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        drawTrail = GetComponent<DrawTrail>();
     }
 
     private void OnMouseDown() // 鼠标按下时
     {
-        isClick = true;
-        rigidbody2D.isKinematic = true;
+        if (canMove)
+        {
+            isClick = true;
+            rigidbody2D.isKinematic = true;
+            AudioPlay(audioSelect);
+        }
     }
 
     private void OnMouseUp()
     {
-        leftLine.enabled = false;
-        rightLine.enabled = false;
-        isClick = false;
-        rigidbody2D.isKinematic = false;
-        Invoke("Fly", 0.1f); // 延时调用
+        if (canMove)
+        {
+            leftLine.enabled = false;
+            rightLine.enabled = false;
+            canMove = false;
+            isClick = false;
+            rigidbody2D.isKinematic = false;
+            Invoke("Fly", 0.1f); // 延时调用
+        }     
     }
 
     private void Update()
@@ -50,11 +63,24 @@ public class Bird : MonoBehaviour {
             }
             Line();
         }
+        MoveCamera();
+    }
+
+    /// <summary>
+    /// 相机跟随小鸟
+    /// </summary>
+    private void MoveCamera()
+    {
+        float posX = transform.position.x;
+        Vector3 cameraPosition = Camera.main.transform.position;
+        Camera.main.transform.position = Vector3.Lerp(cameraPosition, new Vector3(Mathf.Clamp(posX, 0f, 15f), cameraPosition.y, cameraPosition.z), smooth * Time.deltaTime);
     }
 
     void Fly() // 小鸟飞出
     {
+        drawTrail.StartTrail();
         springJoint2D.enabled = false;
+        AudioPlay(audioFly);
         Invoke("Next", 5f);
     }
 
@@ -75,7 +101,21 @@ public class Bird : MonoBehaviour {
     void Next()
     {
         GameManager._instance.birdList.Remove(this);
+        //Debug.Log(GameManager._instance.birdList.Count);
         Destroy(gameObject);
         GameManager._instance.NextBird();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        drawTrail.ClearTrail();
+    }
+
+    /// <summary>
+    /// 播放音效   
+    /// </summary>
+    public void AudioPlay(AudioClip clip)
+    {
+        AudioSource.PlayClipAtPoint(clip, transform.position);
     }
 }

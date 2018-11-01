@@ -3,6 +3,8 @@ guid: e0fc94db34e484f10b4688cf2e18802e
 TextureImporter:
   fileIDToRecycleName:
     21300000: THEME_01_THEME_1_0
+    21300002: THEME_01_THEME_1_1
+    21300004: THEME_01_THEME_1_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -111,17 +113,57 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 343
-        height: 203
+        y: 0
+        width: 344
+        height: 202
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 2}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5149de6d2de9e4425a0b0dbee1c714a1
+      spriteID: 243bd8f63584b47eea445b95525a146d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEME_01_THEME_1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 488
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f9f3fed59b4475a9812c44ee690f7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEME_01_THEME_1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 210
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bb410be37ef4fb6920bd05f76e5829
       vertices: []
       indices: 
       edges: []
