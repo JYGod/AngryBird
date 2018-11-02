@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PausePanel.cs" />
+    <Compile Include="Assets\BlackBird.cs" />
+    <Compile Include="Assets\GreenBird.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Effects\WeaponTrail.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Entities\BladeMaster.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Utility\AnimationController.cs" />
@@ -69,8 +70,10 @@
     <Compile Include="Assets\Scripts\Boom.cs" />
     <Compile Include="Assets\Scripts\DrawTrail.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PausePanel.cs" />
     <Compile Include="Assets\Scripts\Pig.cs" />
     <Compile Include="Assets\Scripts\Win.cs" />
+    <Compile Include="Assets\Scripts\YellowBird.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/jygod/UnityGames/AngryBird/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

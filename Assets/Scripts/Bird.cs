@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bird : MonoBehaviour {
+public class Bird : MonoBehaviour
+{
 
     public Transform rightPosition;
     public Transform leftPosition;
@@ -12,20 +13,26 @@ public class Bird : MonoBehaviour {
     public AudioClip audioSelect;
     public AudioClip audioFly;
     public float smooth = 3f;
+    public Sprite hurt;
+    public GameObject boom;
 
     [HideInInspector]
     public SpringJoint2D springJoint2D;
 
-    private Rigidbody2D rigidbody2D;
-    private DrawTrail drawTrail;
+    protected Rigidbody2D rigidbody2D;
+    protected SpriteRenderer renderer;
+    protected DrawTrail drawTrail;
+
     private bool isClick = false;
     private bool canMove = true;
+    private bool isFly = false;
 
     private void Awake()
     {
         springJoint2D = GetComponent<SpringJoint2D>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         drawTrail = GetComponent<DrawTrail>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnMouseDown() // 鼠标按下时
@@ -48,7 +55,7 @@ public class Bird : MonoBehaviour {
             isClick = false;
             rigidbody2D.isKinematic = false;
             Invoke("Fly", 0.1f); // 延时调用
-        }     
+        }
     }
 
     private void Update()
@@ -64,6 +71,10 @@ public class Bird : MonoBehaviour {
             Line();
         }
         MoveCamera();
+        if (isFly && Input.GetMouseButtonDown(0)) // 小黄鸟加速
+        {
+            ShowSkill();
+        }
     }
 
     /// <summary>
@@ -78,6 +89,7 @@ public class Bird : MonoBehaviour {
 
     void Fly() // 小鸟飞出
     {
+        isFly = true;
         drawTrail.StartTrail();
         springJoint2D.enabled = false;
         AudioPlay(audioFly);
@@ -98,16 +110,22 @@ public class Bird : MonoBehaviour {
     /// <summary>
     /// 处理下一只小鸟
     /// </summary>
-    void Next()
+    protected virtual void Next()
     {
         GameManager._instance.birdList.Remove(this);
         //Debug.Log(GameManager._instance.birdList.Count);
+        Instantiate(boom, transform.position, Quaternion.identity);
         Destroy(gameObject);
         GameManager._instance.NextBird();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (isFly)
+        {
+            renderer.sprite = hurt; 
+        }
+        isFly = false;
         drawTrail.ClearTrail();
     }
 
@@ -117,5 +135,13 @@ public class Bird : MonoBehaviour {
     public void AudioPlay(AudioClip clip)
     {
         AudioSource.PlayClipAtPoint(clip, transform.position);
+    }
+
+    /// <summary>
+    /// 炫技操作    
+    /// </summary>
+    public virtual void ShowSkill()
+    {
+        isFly = false;
     }
 }

@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114052857997187688}
   m_Layer: 0
   m_Name: stone
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,9 @@ MonoBehaviour:
   hurtPig: {fileID: 21300106, guid: 1c07ed9f48d02492296b002694235a33, type: 3}
   boom: {fileID: 1974962375482290, guid: dee8d61ce91e34be0a592b8f67a8f385, type: 2}
   score: {fileID: 1997336640045640, guid: b2050406cf1cd4ceeb7cf6985e45a3b5, type: 2}
+  audioBirdCollision: {fileID: 0}
+  audioPigDead: {fileID: 0}
+  audioPigHurt: {fileID: 0}
   isPig: 0
 --- !u!212 &212078749030984920
 SpriteRenderer:
