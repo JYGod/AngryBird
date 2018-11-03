@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 52ade1e3858ff4658b3b4d5700c78a2d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: LEVELSELECTION_SHEET_1_0
+    21300002: LEVELSELECTION_SHEET_1_1
+    21300004: LEVELSELECTION_SHEET_1_2
+    21300006: LEVELSELECTION_SHEET_1_3
+    21300008: LEVELSELECTION_SHEET_1_4
+    21300010: LEVELSELECTION_SHEET_1_5
+    21300012: LEVELSELECTION_SHEET_1_6
+    21300014: LEVELSELECTION_SHEET_1_7
+    21300016: LEVELSELECTION_SHEET_1_8
+    21300018: LEVELSELECTION_SHEET_1_9
+    21300020: LEVELSELECTION_SHEET_1_10
+    21300022: LEVELSELECTION_SHEET_1_11
+    21300024: LEVELSELECTION_SHEET_1_12
+    21300026: LEVELSELECTION_SHEET_1_13
+    21300028: LEVELSELECTION_SHEET_1_14
+    21300030: LEVELSELECTION_SHEET_1_15
+    21300032: LEVELSELECTION_SHEET_1_16
+    21300034: LEVELSELECTION_SHEET_1_17
+    21300036: LEVELSELECTION_SHEET_1_18
+    21300038: LEVELSELECTION_SHEET_1_19
+    21300040: LEVELSELECTION_SHEET_1_20
+    21300042: LEVELSELECTION_SHEET_1_21
+    21300044: LEVELSELECTION_SHEET_1_22
+    21300046: LEVELSELECTION_SHEET_1_23
+    21300048: LEVELSELECTION_SHEET_1_24
+    21300050: LEVELSELECTION_SHEET_1_25
+    21300052: LEVELSELECTION_SHEET_1_26
+    21300054: LEVELSELECTION_SHEET_1_27
+    21300056: LEVELSELECTION_SHEET_1_28
+    21300058: LEVELSELECTION_SHEET_1_29
+    21300060: LEVELSELECTION_SHEET_1_30
+    21300062: LEVELSELECTION_SHEET_1_31
+    21300064: LEVELSELECTION_SHEET_1_32
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +102,702 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 745
+        width: 246
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7014c38c150f429eb205e182f233e18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 746
+        width: 472
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74298eec526e346caa645997dcf8d321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_2
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 780
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95a81a41d6904bb39b49a4a821c3512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 922
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36a29567bedb42b3806d0d0120d1f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_4
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 875
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6222c77ca81974cdab5704e95f872458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 860
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ea9c5c2719467293dcf312feddfc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 746
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f66a69cf3554d4687d83edbee1cde9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 746
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32027d03964814268b4e168ab432d671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_8
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 745
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8a4ccb187044f22b92420bd4f36346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_9
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 745
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b499420ff444950b003b7aaf27297b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_10
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 750
+        width: 97
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a686036dee045bbb77e9c4eebbac4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 752
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee8290825374eeb957449096277fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 186
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1837bd26b3c1459abaa7d1d296a12c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 4
+        width: 301
+        height: 741
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40f4f3a058f47eebf0233329a2918b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 561
+        width: 415
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c40449a3a79c4414a9cab2adb67414e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_15
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 618
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0c7c95578ce41069426400d337ecd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 159
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220cfe37ee4a64b198953539932d7754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 428
+        width: 498
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e0ce650d484ed9b7fe3d92be4866a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 136
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7827a2715b64c43bf283a950dd4fe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 293
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2535108a3c54345b57ef79f52167c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_20
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 293
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db30d37266a794ff79728bebd701b9e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_21
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 270
+        width: 291
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196725d315e9943479ec946edaddaed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_22
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 329
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab520aa4edd1415aa6ebc2a5499b2c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_23
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 165
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da84cdb7ac1411a8420a05ea8169f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_24
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 165
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb71c221459914d06afb2dec3f543920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_25
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 230
+        width: 290
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4076c48559d4ced9a7d16ec876db85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 138
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ce23d38666f47e38aaf50b77a554bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 37
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c0ca89e177245f58146db62636f016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 56
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b894c511264384b609db56879487a981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f9dcb29e79c42a5a10b6545ff4f872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 69
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25cd10daaa154b8f8081b5d0511a5e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_31
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430cbd068f09744f0a5aa82bf7c62dd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELSELECTION_SHEET_1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb78bdead6760402490d05cc229c7b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

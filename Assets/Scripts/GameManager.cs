@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
     private static int SCENE_LOADING = 0;
     private static int SCENE_GAME = 1;
     private static int SCENE_LEVEL = 2;
+    private int numStar = 0;
 
     private void Awake()
     {
@@ -55,6 +56,17 @@ public class GameManager : MonoBehaviour {
     }
 
     public void NextBird()
+    { 
+        if (IsGameFinish())
+        {
+            SaveData();
+            ShowFinishPanel();
+            return;
+        }
+        Init();
+    }
+
+    private void ShowFinishPanel()
     {
         if (pigList.Count <= 0) 
         {
@@ -66,7 +78,11 @@ public class GameManager : MonoBehaviour {
             loseGo.SetActive(true );
             return;
         }
-        Init();
+    }
+
+    private bool IsGameFinish()
+    {
+        return pigList.Count <= 0 || birdList.Count == 0;
     }
 
     public void ShowStar()
@@ -76,10 +92,14 @@ public class GameManager : MonoBehaviour {
 
     IEnumerator Show()
     {
-        for (int i = 0; i < birdList.Count + 1; i++)
+        for (; numStar < birdList.Count + 1; numStar++)
         {
+            if (numStar >= starList.Length)
+            {
+                break;
+            }
             yield return new WaitForSeconds(0.5f);
-            starList[i].SetActive(true);
+            starList[numStar].SetActive(true);
         }
     }
 
@@ -92,6 +112,11 @@ public class GameManager : MonoBehaviour {
     public void Home()
     {
         SceneManager.LoadScene(SCENE_LEVEL);
+    }
+
+    public void SaveData()
+    {
+        PlayerPrefs.SetInt(PlayerPrefs.GetString("level"), numStar);
     }
 
 }

@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 666
     width: 394
     height: 290
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 151
+  controlID: 163
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 152
+  controlID: 164
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,8 +276,8 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 666
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 13164
+  m_LastSelectedObjectID: -89124
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -585,26 +585,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff00000000103300008a330000
+    m_ExpandedIDs: d66ef5fff471f5ff5a6efaffe8b5fbff18b8fbffceb9fbff2cabfeff2c7ffffff281ffffb483ffff000000000e3300004a33000088330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: gride
+      m_OriginalName: gride
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -367204
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
   m_ExpandedScenes:
-  - Game
+  - Level
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -680,20 +680,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
-  m_StartGridSize: 67
+  m_StartGridSize: 88
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: 67
+  - Assets/Scripts
+  m_LastFoldersGridSize: 88
   m_LastProjectPath: /Users/jygod/UnityGames/AngryBird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d22d0000
-    m_LastClickedID: 11730
-    m_ExpandedIDs: 00000000ce290000702b0000c22b0000462c0000162e00008a2e0000242f00004e2f0000562f00006232000000ca9a3b
+    m_SelectedIDs: 70320000
+    m_LastClickedID: 12912
+    m_ExpandedIDs: 00000000d4290000762b0000c82b00004c2c00001c2e0000942e00002e2f00005c2f0000642f00007032000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -721,7 +721,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 3467}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce290000702b0000c22b0000462c0000162e00008a2e0000242f00004e2f0000562f000062320000
+    m_ExpandedIDs: 00000000d4290000762b0000c82b00004c2c00001c2e0000942e00002e2f00005c2f0000642f000070320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 52260000e23d0000783d00005445000034ff0000f8fa0000f837000000000000682a00004c2a0000d02e00005e2b0000
+    m_ExpandedInstanceIDs: 52260000e23d0000783d00005445000034ff0000f8fa0000f837000000000000682a00004c2a0000d02e0000462c0000742f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,8 +773,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 67
+    m_ScrollPosition: {x: 0, y: 185}
+    m_GridSize: 88
   m_DirectoriesAreaWidth: 199
 --- !u!114 &23
 MonoBehaviour:
@@ -881,14 +881,14 @@ MonoBehaviour:
     height: 483
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 15155.037083983421
+  lastFramingTime: 8017.307579040527
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.7164886, y: 9.31271, z: 114.97259}
+    m_Target: {x: 296.7138, y: 862.5549, z: -2.199138}
     speed: 2
-    m_Value: {x: -3.7164886, y: 9.31271, z: 114.97259}
+    m_Value: {x: 296.7138, y: 862.5549, z: -2.199138}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -920,9 +920,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.642658
+    m_Target: 488.20834
     speed: 2
-    m_Value: 16.642658
+    m_Value: 488.20834
   m_Ortho:
     m_Target: 1
     speed: 2
