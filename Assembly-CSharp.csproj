@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LoadLevel.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Effects\WeaponTrail.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Entities\BladeMaster.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Utility\AnimationController.cs" />
@@ -72,6 +71,8 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GreenBird.cs" />
     <Compile Include="Assets\Scripts\LevelSelect.cs" />
+    <Compile Include="Assets\Scripts\LoadLevel.cs" />
+    <Compile Include="Assets\Scripts\LoadLevelSync.cs" />
     <Compile Include="Assets\Scripts\MapSelect.cs" />
     <Compile Include="Assets\Scripts\PausePanel.cs" />
     <Compile Include="Assets\Scripts\Pig.cs" />

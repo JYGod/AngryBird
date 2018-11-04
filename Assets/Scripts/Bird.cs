@@ -19,12 +19,14 @@ public class Bird : MonoBehaviour
     [HideInInspector]
     public SpringJoint2D springJoint2D;
 
+    [HideInInspector]
+    public bool canMove = false;
+
     protected Rigidbody2D rigidbody2D;
     protected SpriteRenderer renderer;
     protected DrawTrail drawTrail;
 
     private bool isClick = false;
-    private bool canMove = true;
     private bool isFly = false;
 
     private void Awake()

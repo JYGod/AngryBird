@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
     private static int SCENE_GAME = 1;
     private static int SCENE_LEVEL = 2;
     private int numStar = 0;
+    private int totalLevel = 10; // 总关卡数
 
     private void Awake()
     {
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour {
                 birdList[i].transform.position = originPosition;
                 birdList[i].enabled = true;
                 birdList[i].springJoint2D.enabled = true;
+                birdList[i].canMove = true;
             }
             else
             {
@@ -59,7 +61,6 @@ public class GameManager : MonoBehaviour {
     { 
         if (IsGameFinish())
         {
-            SaveData();
             ShowFinishPanel();
             return;
         }
@@ -92,7 +93,7 @@ public class GameManager : MonoBehaviour {
 
     IEnumerator Show()
     {
-        for (; numStar < birdList.Count + 1; numStar++)
+        for (numStar = 0; numStar < birdList.Count + 1; numStar++)
         {
             if (numStar >= starList.Length)
             {
@@ -101,22 +102,38 @@ public class GameManager : MonoBehaviour {
             yield return new WaitForSeconds(0.5f);
             starList[numStar].SetActive(true);
         }
+        Debug.Log("star: " + numStar);
     }
 
     public void Replay()
     {
         Debug.Log("replay");
+        SaveData();
         SceneManager.LoadScene(SCENE_GAME);
     }
 
     public void Home()
     {
+        SaveData();
         SceneManager.LoadScene(SCENE_LEVEL);
     }
 
     public void SaveData()
     {
-        PlayerPrefs.SetInt(PlayerPrefs.GetString("level"), numStar);
+        string level = PlayerPrefs.GetString("level");
+        if (PlayerPrefs.GetInt(level, 0) < numStar)
+        {
+            PlayerPrefs.SetInt(level, numStar);
+        }
+        //Debug.Log("save: " + level + "\t " + numStar);
+        // 存储所有星星个数
+        int sum = 0;
+        for (int i = 1; i <= totalLevel + 1; i++)
+        {
+            sum += PlayerPrefs.GetInt("block" + i, 0);
+        }
+        PlayerPrefs.SetInt("totalStar", sum);
+        //Debug.Log("total: " + sum);
     }
 
 }

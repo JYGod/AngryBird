@@ -1,17 +1,12 @@
 ﻿<Properties StartupConfiguration="{954AB0CE-9E6A-D010-66E2-346781543F80}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LoadLevel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bird.cs">
     <Files>
-      <File FileName="Assets/Scripts/Boom.cs" Line="10" Column="6" />
-      <File FileName="Assets/Scripts/Pig.cs" Line="10" Column="27" />
-      <File FileName="Assets/Scripts/DrawTrail.cs" Line="50" Column="17" />
-      <File FileName="Assets/Scripts/Bird.cs" Line="119" Column="42" />
-      <File FileName="Assets/Scripts/Win.cs" Line="8" Column="6" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="119" Column="67" />
-      <File FileName="Assets/Scripts/YellowBird.cs" Line="10" Column="36" />
-      <File FileName="Assets/Scripts/MapSelect.cs" Line="41" Column="2" />
-      <File FileName="Assets/Scripts/LevelSelect.cs" Line="36" Column="61" />
-      <File FileName="Assets/LoadLevel.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="13" Column="5" />
+      <File FileName="Assets/Scripts/MapSelect.cs" Line="13" Column="37" />
+      <File FileName="Assets/Scripts/LevelSelect.cs" Line="50" Column="45" />
+      <File FileName="Assets/LoadLevelSync.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/Bird.cs" Line="27" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
