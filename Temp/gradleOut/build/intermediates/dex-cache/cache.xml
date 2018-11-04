@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jygod/UnityGames/AngryBird/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d3fe2ce37696d8674efcc4dd3c1d91da838f514b">
+        <dex dex="/Users/jygod/UnityGames/AngryBird/Temp/gradleOut/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+
+</items>
